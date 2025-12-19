@@ -41,6 +41,19 @@ The purpose of this project is to simulate sensor data and UART communication in
 git clone https://github.com/JonosMirzazada/UART-Sensor-Simulator.git
 cd UART-Sensor-Simulator
 
+---
+
+
+### Run with Docker
+
+```bash
+# Build the image
+docker build -t uart-sensor-sim .
+
+# Run the simulator
+docker run --rm uart-sensor-sim
+```
+
 ### Example Output
 
 ```bash
